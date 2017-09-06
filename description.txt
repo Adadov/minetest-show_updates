@@ -1,0 +1,1 @@
+Module used to display updates informations on start
