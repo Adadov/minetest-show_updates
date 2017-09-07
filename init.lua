@@ -1,7 +1,7 @@
 local input = io.open(minetest.get_worldpath().."/modifications.txt", "r")
 if input then
 	local the_text = input:read("*all")
-	f:close()
+	input:close()
 
 	minetest.register_on_joinplayer(function(player)
 
